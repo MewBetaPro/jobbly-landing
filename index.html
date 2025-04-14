@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>jobbly – Finde Mini-Jobs in deiner Nähe</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background: #ffffff;
+      color: #415661;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1.5rem 2rem;
+      background-color: #ffffff;
+    }
+
+    .logo {
+      font-size: 1.8rem;
+      font-weight: bold;
+    }
+
+    .logo span {
+      color: #0ABFFF;
+    }
+
+    .btn-header {
+      background: #0ABFFF;
+      color: #ffffff;
+      padding: 0.6rem 1.2rem;
+      border-radius: 8px;
+      border: none;
+      cursor: pointer;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 4rem 2rem;
+      background-color: #F7FBFD;
+    }
+
+    .hero h1 {
+      font-size: 2.4rem;
+      margin-bottom: 1rem;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      max-width: 600px;
+      margin: 0 auto 2rem;
+    }
+
+    .email-form input {
+      padding: 0.8rem;
+      width: 250px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      margin-right: 0.5rem;
+    }
+
+    .email-form button {
+      padding: 0.8rem 1rem;
+      background: #0ABFFF;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+
+    .section {
+      padding: 3rem 2rem;
+      text-align: center;
+    }
+
+    .section h2 {
+      font-size: 1.8rem;
+      margin-bottom: 2rem;
+    }
+
+    .steps {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    .step {
+      background: #EAF6FA;
+      padding: 1.5rem;
+      border-radius: 10px;
+    }
+
+    footer {
+      background: #012640;
+      color: white;
+      text-align: center;
+      padding: 2rem;
+    }
+
+    footer a {
+      color: #1FD2E6;
+      text-decoration: none;
+      margin: 0 0.5rem;
+    }
+
+    @media (min-width: 768px) {
+      .steps {
+        flex-direction: row;
+        justify-content: space-between;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo"><span>j</span>obbly</div>
+    <button class="btn-header">Beta testen</button>
+  </header>
+
+  <section class="hero">
+    <h1>Finde Mini-Jobs in deiner Nähe</h1>
+    <p>Jobbly verbindet dich mit kleinen Aufgaben in deiner Umgebung – spontan, sicher & sofort bezahlt.</p>
+    <div class="email-form">
+      <input type="email" placeholder="Deine E-Mail-Adresse" />
+      <button>Vormerken lassen</button>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>So einfach funktioniert’s</h2>
+    <div class="steps">
+      <div class="step">
+        <strong>1. Job finden</strong>
+        <p>Wähle in deiner Nähe Aufgaben, die zu dir passen.</p>
+      </div>
+      <div class="step">
+        <strong>2. Annehmen</strong>
+        <p>Ein Klick – und du bist dabei.</p>
+      </div>
+      <div class="step">
+        <strong>3. Auszahlen</strong>
+        <p>Erledige die Aufgabe und werde direkt bezahlt.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="background: #F7FBFD;">
+    <h2>App kommt bald!</h2>
+    <p>Trag dich jetzt ein, um als Erstes dabei zu sein und mit uns die Beta zu testen.</p>
+    <div class="email-form">
+      <input type="email" placeholder="E-Mail eintragen" />
+      <button>Mitmachen</button>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 jobbly – Made with Herz in Deutschland</p>
+    <p>
+      <a href="#">Datenschutz</a> |
+      <a href="#">Impressum</a> |
+      <a href="#">Instagram</a>
+    </p>
+  </footer>
+
+</body>
+</html>
